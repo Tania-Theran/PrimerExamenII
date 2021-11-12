@@ -1,0 +1,94 @@
+Admin@DESKTOP-8MBMCMQ MINGW64 ~
+$ cd /c/Users/Admin/Desktop
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop
+$ mkdir DH
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop
+$ cd DH
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH
+$ mkdir Peliculas
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH
+$ cd Peliculas
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ cd Infantiles
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ touch Intenzamente "El juego del miedo" "Rapido y Furioso" Titanic
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Infantiles
+$ cd ..
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ cd Accion
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ touch "Smooth criminal" "Diario de una pasion" "El Exorcista" cars
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ cd Accion
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ mv "El exorcista" "Hexorcista"
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ ls
+'Diario de una pasion'   Hexorcista  'Smooth criminal'   cars
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Accion
+$ cd ..
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ cd Terror
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ touch "La dama y el bagavundo" "Yo antes de ti" " Que paso ayer" "We will rock"
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ cd ..
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas
+$ cd ..
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+'Diario de una pasion'   Hexorcista  'Smooth criminal'   cars
+
+./Peliculas/Comedia:
+
+./Peliculas/Infantiles:
+'El juego del miedo'   Intenzamente  'Rapido y Furioso'   Titanic
+
+./Peliculas/Romanticas:
+
+./Peliculas/Terror:
+' Que paso ayer'  'La dama y el bagavundo'  'We will rock'  'Yo antes de ti'
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH
+$ cd Peliculas/Terror
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ ls
+' Que paso ayer'  'La dama y el bagavundo'  'We will rock'  'Yo antes de ti'
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Terror
+$ mv "La dama y el bagavundo" ../Romanticas/"La dama y el vagabundo"
+
+Admin@DESKTOP-8MBMCMQ MINGW64 ~/Desktop/DH/Peliculas/Terror
+$
